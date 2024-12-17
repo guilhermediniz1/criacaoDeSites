@@ -1,0 +1,38 @@
+/* Resetando margens e padding para garantir que o estilo seja consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilizando o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* cor de fundo suave */
+}
+
+/* Estilizando o container que envolve a mensagem */
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 100px; /* Coloca o container um pouco abaixo do topo */
+    width: 80%; /* Largura do container */
+    max-width: 600px; /* Largura máxima */
+    margin-left: auto; /* Centraliza à esquerda */
+    margin-right: auto; /* Centraliza à direita */
+}
+
+/* Estilizando o título principal */
+h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* Estilizando o parágrafo */
+p {
+    color: #666;
+    font-size: 1.2em;
+}
